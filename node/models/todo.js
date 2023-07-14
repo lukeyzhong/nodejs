@@ -13,6 +13,6 @@ const todoSchema = new mongoose.Schema({
 });
 
 // use an instance to connect the database
-const Todo = mongoose.model('todo', todoSchema);
+const Todo = mongoose.model('data', todoSchema);
 
 module.exports.Todo = Todo;
